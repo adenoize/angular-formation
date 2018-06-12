@@ -1,0 +1,17 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image">
+      <img mat-card-image [src]="recipe.picture" alt="Photo de cocktails">
+
+    </div>
+    <mat-card-title>{{recipe.name}}</mat-card-title>
+    <mat-card-subtitle>&nbsp;</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="recipe.picture" alt="Photo de cocktails">
+  <mat-card-content>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" routerLink="/recipes/{{recipe.id}}" >Details</button>
+    <button mat-raised-button color="primary">Supprimer</button>
+  </mat-card-actions>
+</mat-card>

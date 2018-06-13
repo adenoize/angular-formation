@@ -9,7 +9,6 @@ import {ActivatedRoute} from '@angular/router';
   styleUrls: ['./recipe-detail.component.scss']
 })
 export class RecipeDetailComponent implements OnInit {
-  
   recipe: Recipe;
   id: string;
   expend = false;

@@ -22,7 +22,6 @@ import { RecipeModule } from './recipe/recipe.module';
     HttpClientModule,
     AppRoutingModule,
     RecipeModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent]

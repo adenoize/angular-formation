@@ -7,4 +7,8 @@ export class Recipe {
   description: string;
   ingredients: Ingredient[];
   instructions: string[];
+
+  constructor() {
+    this.ingredients = [new Ingredient()];
+  }
 }
